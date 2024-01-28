@@ -1,0 +1,84 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+ /*Font: font-family: 'Teko', sans-serif;*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/*Font: font-family: 'Open Sans', sans-serif;*/
+
+:root{
+    --fonth1:'Teko', sans-serif;
+    --fontp: 'Open Sans', sans-serif;
+    --cor01: #FA0F0F;
+    --cor02: #D60D0D;
+    --cor03: #AD0A0A;
+    --cor04: #850808;
+    --cor05: #5C0606;
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, #5C0606, #AD0A0A, #FA0F0F );
+    margin: auto;
+    padding: 40px 40px 30px 40px;
+    text-align: center;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonth1);
+    font-size: 2.8em;
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.489);
+}
+
+header > p {
+    color: white;
+    font-size: 1em;
+    font-family: var(--fontp);
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.489);
+}
+
+nav {
+    background-color: #5C0606;
+    
+}
+
+nav a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: var(--fonth1);
+    margin: 0px 10px 20px 10px;
+    border-bottom: 10px;
+    padding: 0px 10px;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: #AD0A0A;
+    transition-duration: 0.5s;
+    padding: 4px 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+div {
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+div img {
+    width: 700px;
+    height: 500px;
+
+
+}
+    
