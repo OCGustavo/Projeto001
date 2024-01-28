@@ -85,9 +85,13 @@ h1, h2, h3 {
 div {
     margin: auto;
     text-align: center;
-    margin-top: 40px;
-    
+    margin-top: 10px;
 }
+
+body > div{
+    margin-top: 40px;
+}
+
 div  h3 {
     margin: 10px 0px 20px 0px; 
 }
@@ -101,13 +105,15 @@ div strong{
 article {
     background-color: white;
     margin: auto;
+    padding-bottom: 10px;
     max-width: 1200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.403);
 }
+
 
 article > h1 {
     background-image: linear-gradient(to right, #ad0a0ae6, white );
     color:rgb(98, 5, 5);
-    padding-left: 0px;
     font-size: 1.3em;
     margin-bottom: 10px;
 }
@@ -118,12 +124,24 @@ article > p {
     text-align: justify;
     text-indent: 30px;
     padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+article strong {
+    color: #5C0606;
+    background-color: #fa0f0f59;
 }
 
 article > h3 {
     color: #AD0A0A;
     font-size: 1.2em;
     text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+#h3diferente {
+    color: black;
+    padding-bottom: 20px;
 }
 
 .video {
@@ -173,4 +191,22 @@ section  a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     
+}
+
+
+#fim {
+    background-color: hsl(0, 84%, 80%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.403);
+}
+
+footer {
+    background-color: #5C0606;
+    font-size: 0.3em;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer strong {
+    color: #e45050;
 }
